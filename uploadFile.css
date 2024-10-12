@@ -1,0 +1,12 @@
+body {
+    background-color: #29303b ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+label{
+    color: white;
+}

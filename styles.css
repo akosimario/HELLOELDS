@@ -1,0 +1,77 @@
+body {
+    background-color: #29303b ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* .form-container {
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: black;
+    max-width: 700px;
+    width: 100%;
+} */
+
+.lblBooking {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.lblDetails {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    border: 3px solid #12B2D6;
+    border-radius: 11px  ;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #12B2D6;
+    color: white;
+}
+.btn:hover{
+    background-color: #12B2D6;
+    color: white;
+}
+/* .lblBirthday{
+    color: white;
+} */
+
+
+.form-select {
+    width: 100%;
+}
+.step {
+    display: none;
+}
+.step.active {
+    display: block;
+}
+button {
+    margin-top: 20px;
+}
+.form-control{
+    text-align: center;
+}

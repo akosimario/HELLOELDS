@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    position: relative; 
+    
+  }
+  
+  .image img {
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .form-signin {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-signin-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 20px;
+  
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80px;
+  }
+  
+  .btn:hover {
+    background-color: grey;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .create p {
+    margin: 0;
+  }
+  
+  .create a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .create a:hover {
+    text-decoration: underline;
+  }
+  .btnBack{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .btnBack-img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  
+  }
+  
+  
